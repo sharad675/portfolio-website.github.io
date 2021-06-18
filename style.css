@@ -1,0 +1,452 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #efefef;
+    font-family: sans-serif; 
+}
+
+  
+.profile-img
+{
+    width: 40%;
+    float: right;
+}
+.profile-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.about
+{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.profile-info
+{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar
+{
+    /* width: 0px; */
+}
+.profile-info h1
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/zPMmTFHaKE0IRdIbqI/giphy.gif);
+    -webkit-background-clip: text;
+    
+}
+.social-media img
+{
+    height: 30px;
+    margin-right: 15px;
+    
+}
+.social-media
+{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.profile-info h2
+{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 40px;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/zPMmTFHaKE0IRdIbqI/giphy.gif);
+    -webkit-background-clip: text;
+}
+.Skills img
+{
+    height: 5%;
+    margin: 5px;
+}
+.Skills
+{
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba#e9dbdb;
+    background: rgb(206, 15, 120);
+}
+.Skills small
+{
+    padding-top: 10px;
+    display: block;
+}
+.education img
+{
+    height: 5%;
+    margin: 5px;
+}
+.education
+{
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+    background: blueviolet;
+}
+.education small
+{
+    padding-top: 10px;
+    display: block;
+}
+.Hobies img
+{
+    height: 5%;
+    margin: 5px;
+}
+.Hobies
+{
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+    background: rgb(69, 113, 235);
+}
+.Hobies small
+{
+    padding-top: 10px;
+    display: block;
+}
+.btn-rounded-white{
+    min-width: 190px;
+    display:inline-block;
+    color:#fff;
+    background-color: #279ae7;
+    padding:15px 25px;
+    border:3px solid #fff;
+    border-radius:30px;
+    transition:.5s ease all
+    }
+    .btn-rounded-white:hover {
+        background-color: rgb(18, 46, 133);
+      } 
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 0.4rem;
+    border: 2px solid black;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+  }
+  
+  .progress {
+    background: linear-gradient(to right top, #15927b, #6cdbeb);
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 60%;
+  }
+  .card-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .percentage {
+    font-weight: bold;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+.projects img
+{
+    width: 31%;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#projectss{
+    padding:50px 15px;
+    border-bottom:1px solid #dcd9d9;
+    text-align:center}
+    
+#projects h2{
+    color:#690a75;
+    margin-bottom:50px}
+    
+.project{
+    position:relative;
+    max-width:900px;
+    margin:0 auto 30px auto;
+    overflow:hidden;
+    background:#fff;
+    border-radius:4px}
+
+.project-image{
+	float:left;
+	padding:10px
+}
+
+.project-info{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    margin-left:300px;
+    padding:15px}
+    
+.project-info h3{
+    font-size:1.5em;
+    font-weight:300;
+    color:#374054;
+    margin:0 0 15px 0}
+    
+.project-info p{
+    color:#74808a;
+    margin:0 0 15px 0;
+    font-size:0.9em}
+    
+.no-image .project-info{
+    position:relative;
+    margin:0;
+    padding:30px 15px;
+    transform:none}
+    
+#more-projects{display:none}
+
+.form-box
+{
+    margin-top: 30px;
+    
+}
+.input-group input
+{
+    width: 45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background: #fff;
+}
+.text-area textarea
+{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    background: #fff;
+
+}
+.submit-btn
+{
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px;
+    margin: 2%;
+    background: #2ab0ff;
+    cursor: pointer;
+    color: #fff;
+    
+}
+/* hover effect button */
+
+.submit-btn:hover {background-color: #071a6d}
+
+.submit-btn:hover {
+  padding-right: 25px;
+}
+
+.submit-btn:hover {
+  opacity: 1;
+  right: 0;
+}
+.contact img
+{
+    width: 20px;
+    margin: -5px 10px;
+}
+.contact span
+{
+    margin: 5%;
+    
+}
+.contact 
+{
+    margin: 5% 0 5% 25%;
+    width: 65%;
+    
+}
+
+#contact{
+    padding:50px 15px;
+    background:#3498db;
+    text-align:center}
+   
+    
+#contact h2{
+    margin:0 0 15px 0;
+    color:#fff;
+    font-weight:500px}
+   
+    
+#contact-form{
+    max-width:500px;
+    margin:0 auto}
+    
+#contact-form input,#contact-form textarea{
+    display:block;
+    width:100%;
+    padding:10px;
+    border-radius:4px;
+    border:none;
+    margin-bottom:10px;
+    background:#1d6fa5;
+    color:#fff;
+    transition:.5s ease all}
+    
+#contact-form input::-webkit-input-placeholder,
+#contact-form textarea::-webkit-input-placeholder{color:#fff}
+#contact-form input:-moz-placeholder,
+#contact-form textarea:-moz-placeholder{color:#fff;opacity:1}
+#contact-form input::-moz-placeholder,
+#contact-form textarea::-moz-placeholder{color:#fff;opacity:1}
+#contact-form input:-ms-input-placeholder,
+#contact-form textarea:-ms-input-placeholder{color:#fff}
+#contact-form input:focus,
+#contact-form textarea:focus{outline:none;background:#16527a}
+#contact-form textarea{height:150px;resize:none}
+hover effect button
+
+.send-btn:hover {background-color: #071a6d}
+
+.send-btn:hover {
+  padding-right: 25px;
+}
+
+.send-btn:hover {
+  opacity: 1;
+  right: 0;
+}
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#submit-btn
+{
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px;
+    margin: 2%;
+    background: #2ab0ff;
+    cursor: pointer;
+    color: #fff;
+    
+}
+footer{
+    background-color: #bc2aff;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width:900px)
+{
+    .profile-info
+    {
+        width: 100%;
+        overflow: inherit;
+    }
+    .profile-img
+    {
+        width: 100%;
+    }
+    .Skills
+    {
+        width: 95%;
+        margin-bottom: 10%;
+    }
+    .Skills img
+    {
+        height: 8%;
+        margin: 10px 0;
+    }
+    .education
+    {
+        width: 95%;
+        margin-bottom: 10%;
+    }
+    .education img
+    {
+        height: 8%;
+        margin: 10px 0;
+    }
+    .Hobies
+    {
+        width: 95%;
+        margin-bottom: 10%;
+    }
+    .Hobies img
+    {
+        height: 8%;
+        margin: 10px 0;
+    }
+    
+    .projects img
+    {
+        width: 47%;
+    }
+    span
+    {
+        display: block;
+    }
+}
+ /* .project-image{display:none} */
+
+.project-info{position:relative;margin:0;padding:30px 15px;top:auto;transform:none}footer{text-align:center}
+
+.social{text-align:center}}@media only screen and (max-width: 480px){#lead-content h1{font-size:1.5em}#lead-content h2{font-size:1em}#lead-content a{font-size:0.9em;padding:5px 10px}}
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .card{
+      flex-direction: column;
+    }
+  }@media (max-height:800px){
+	footer { position: static; }
+
+}
