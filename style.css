@@ -9,8 +9,22 @@ body
     background: #efefef;
     font-family: sans-serif; 
 }
-
-  
+.header{
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+    position: relative;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
 .profile-img
 {
     width: 40%;
@@ -450,3 +464,16 @@ footer{
 	footer { position: static; }
 
 }
+@media(min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
