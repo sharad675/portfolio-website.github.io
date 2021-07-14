@@ -225,6 +225,11 @@ h2{
 #projects h2{
     color:#690a75;
     margin-bottom:50px}
+ .heading h2{
+    font-size: 40px;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/zPMmTFHaKE0IRdIbqI/giphy.gif);
+	 -webkit-background-clip: text;}  
     
 .project{
     position:relative;
